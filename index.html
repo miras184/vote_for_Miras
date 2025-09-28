@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Жамбылов Мирас — кандидат в президенты школы</title>
+  <style>
+    :root{
+      --bg:#fffdf7;
+      --card:#ffffff;
+      --accent:#0a2342;     /* тёмно-синий */
+      --muted:#555b6e;
+      --accent2:#d4af37;    /* золотой */
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      margin:0;
+      background:var(--bg);
+      color:var(--accent);
+    }
+    .page{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{height:68px}
+    h1{font-size:30px;margin:0;color:var(--accent2);}
+    .subtitle{color:var(--accent);margin-top:6px;font-weight:500}
+    .card{
+      background:var(--card);
+      border-radius:14px;
+      padding:24px;
+      box-shadow:0 6px 20px rgba(10,35,66,0.15);
+      display:flex;
+      gap:24px;
+      align-items:center;
+      border:2px solid var(--accent2);
+    }
+    .photo{flex:0 0 230px}
+    .photo img{
+      width:230px;height:310px;object-fit:cover;
+      border-radius:12px;
+      border:3px solid var(--accent2);
+    }
+    .info{flex:1}
+    .note{margin-top:14px;color:var(--muted);font-size:15px}
+    .goals{margin-top:20px}
+    .goals h2{font-size:20px;margin:0 0 10px;color:var(--accent)}
+    ul{margin:0;padding-left:20px;color:var(--accent2);font-weight:500}
+    li{margin:8px 0}
+    footer{
+      margin-top:24px;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+      border-top:1px solid #eee;
+      padding-top:10px;
+    }
+    @media (max-width:720px){
+      .card{flex-direction:column}
+      .photo img{width:100%;height:auto}
+      .logo{height:56px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img class="logo" src="лого БИЛ.png" alt="Logo of BIL school" />
+      <div style="text-align:right">
+        <div style="font-size:14px;color:var(--muted)">Кандидат на пост президента школы</div>
+        <div style="font-weight:700;color:var(--accent)">Жамбылов Мирас</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="main-title">
+        <div class="photo">
+          <img src="WhatsApp Image 2025-09-28 at 17.04.26.jpeg" alt="Фото Жамбылова Мирас"/>
+        </div>
+        <div class="info">
+          <h1 id="main-title">Жамбылов Мирас</h1>
+          <div class="subtitle">Zhambylov Miras — "Vote for better live in BIL"</div>
+
+          <p class="note">Небольшая страница-резюме, чтобы одноклассники и учителя узнали, кто я и какие у меня планы как у президента школы.</p>
+
+          <div class="goals">
+            <h2>My goals as school president</h2>
+            <ul>
+              <li>Development of a charity foundation</li>
+              <li>Project competitions (startup, social project, etc.)</li>
+              <li>Esports competitions (Brawl Stars, Clash Royale, Counter-Strike, Dota, FC Mobile, FC 25, UFC)</li>
+              <li>Stand-up: every student can go on stage and perform humorous acts</li>
+              <li>Open mic: every student can showcase their talent</li>
+              <li>Development of the Olympiad field</li>
+              <li>Inviting famous people to our school</li>
+              <li>Dormitory league: football and basketball for boys, volleyball and table tennis for girls (together)</li>
+              <li>KVN "League of the Cheerful and Resourceful": school competitions will be held (the best players will represent the school in regional competitions). Students themselves choose the host once every 1–2 weeks.</li>
+              <li>Wall of Excellence (the best students are listed there)</li>
+              <li>Honor Board (teachers and staff who have worked the longest at school)</li>
+              <li>Thematic days</li>
+              <li>Development of clubs</li>
+              <li>From grades 7–8, helping students choose their future place of study and profession.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        Страница создана для презентации кандидатуры Жамбылова Мирас.
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
